@@ -29,4 +29,4 @@ COPY --from=build /app/bin/server /app/bin/
 
 
 # Start server.
-CMD ["/app/bin/server"]
+CMD ["dart", "run", "build/bin/server.dart"]
